@@ -9,5 +9,5 @@ const updateScreen = (number) => {
 	calculatorScreen.value = number;
 };
 let prevInput = "0";
-let calculationOperation = "";
+let calculationOperator = "";
 let currentInput = "0";

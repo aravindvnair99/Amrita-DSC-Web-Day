@@ -1,5 +1,5 @@
 let prevInput = "0";
-let calculationOperation = "";
+let calculationOperator = "";
 let currentInput = "0";
 const numbers = document.querySelectorAll(".number");
 const calculatorScreen = document.querySelector(".calculator_screen");
