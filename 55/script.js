@@ -36,7 +36,7 @@ equalSign.addEventListener("click", () => {
 });
 const calculate = () => {
 	let result = 0;
-	switch (calculationOperation) {
+	switch (calculationOperator) {
 		case "+":
 			result = prevInput + currentInput;
 			break;
